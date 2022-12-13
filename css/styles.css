@@ -1,0 +1,236 @@
+/* ======Index.html====== */
+
+/* Основной текст #212121; */
+/* Вторичный текст #757575 */
+/* Белый цвет #FFFFFF;*/
+/* Акцент #2196F3 */
+/* Фон #2F303A; */
+/* Фторичный фон #F5F4FA; */
+/* Футер color: rgba(255, 255, 255, 0.6); */
+
+
+
+/* html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+
+} */
+
+/* Секции */
+
+/* Сброс стилей */
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+margin-top: 0;
+margin-bottom: 0;
+} */
+
+/* ul,ol{
+margin-top: 0;
+margin-bottom: 0; 
+padding-left: 0;
+} */
+
+/* HEADER */
+
+
+
+/* Logo */ 
+
+
+/* .link-studio:hover::after{
+    opacity: 1;
+} */
+
+/* .link-studio-portfolio::after{
+    position: absolute;
+    display: block;
+    content: "";
+    
+    width: 72px;
+    height: 4px;
+    left: 0;
+    bottom: -32px;
+
+    
+    background: #2196F3;
+    border-radius: 2px;
+
+    transition: opacity var(--timing-function-active);
+    opacity: 0;
+}
+
+.link-studio-portfolio:hover::after{
+    opacity: 1;
+} */
+
+/* .nav-item-contacts::after{
+    position: absolute;
+    left: 452px;
+    top: 75px;
+
+    display: block;
+    content: "";
+    width: 68px;
+    height: 4px;
+    
+    background: #2196F3;
+    border-radius: 2px;
+
+    transition: opacity cubic-bezier(0.4, 0, 0.2, 1) 250ms 0ms;
+    opacity: 0;
+}
+
+.nav-item-contacts:hover::after{
+    opacity: 1;
+} */
+
+
+
+
+
+/* .aside::before{
+    content: "";
+    display: inline-flex;
+    width: 16px; 
+    min-height: 16px;
+    margin-right: 10px;
+    outline: 1px solid tomato;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* .icon-envelope::before{
+    min-height: 12px;
+    background-image: url(../images/envelope.svg);
+}
+
+.icom-smartphone::before{
+    background-image: url(../images/smartphone.svg);
+} */
+
+
+
+
+
+/* Hero */
+
+
+
+/* Button */
+
+/* .button{
+    color: var(--primary-text-color);
+    background-color: var(--hero-text-color);
+    cursor: pointer;
+    
+} */
+
+
+
+/* Преимущества */
+
+
+
+
+/* .feature-desc.icon-antenna::before{
+    background-image: url(../images/antenna.svg);
+}
+
+.feature-desc.icon-clock::before{
+    background-image: url(../images/clock.svg);
+}  
+
+.feature-desc.icon-diagram::before{
+    background-image: url(../images/diagram.svg);
+}
+
+.feature-desc.icon-astronaut::before{
+    background-image: url(../images/astronaut.svg);
+} */
+
+
+
+/* Чем занимаемся */
+
+
+
+/* Наша команда */
+
+
+/* clients company */
+
+
+
+
+
+/*  Подвал */
+
+
+
+
+
+
+/* ======Portfolio.html====== */
+
+/* Цвет кнопки #F5F4FA; */
+/* Кнопка в фокусе #2196F3; */
+/* Основной фон  #FFFFFF;*/
+/* Вторичный текст #757575 */
+/* Основной текст #212121; */
+/* Футер color: rgba(255, 255, 255, 0.6); */
+/* Фон карточки #EEEEEE; */
+
+
+/* navigation */
+
+
+
+
+
+
+
+/* Navigation-images */
+
+
+
+/*  Title */
+
+
+
+/* Скрытый заголовок */
+
+
+
+
+
+
+/*=====Modal.html=====*/
+
+
+
+/* =====FORMA=====*/
+
+
+
+/* .link-text{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+} */
+

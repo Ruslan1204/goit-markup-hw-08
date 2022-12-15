@@ -65,46 +65,37 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.portfolio.all{
-    border-radius: 4px;
-    padding: 6px 25px;
-    min-width: 73px;
+.portfolio-button-styles{
     display: inline-block;
     align-items: center;
+
+    color: var(--background-color);
+    background-color: var(--button-color);
+
+    border-radius: 4px;
+    padding: 6px 22px;
+    
+}
+
+.portfolio.all{
+    padding: 6px 25px;
+    min-width: 73px;
 }
 
 .portfolio.web{
-    border-radius: 4px;
-    padding: 6px 22px;
     min-width: 125px;
-    display: inline-block;
-    align-items: center;
 }
 
 .portfolio.appendices{
-    border-radius: 4px;
-    padding: 6px 22px;
     min-width: 112px;
-    display: inline-block;
-    align-items: center;
 }
 
 .portfolio.design{
-
-    border-radius: 4px;
-    padding: 6px 22px;
     min-width: 103px;
-    display: inline-block;
-    align-items: center;
 }
 
 .portfolio.marketing{
-
-    border-radius: 4px;
-    padding: 6px 22px;
     min-width: 130px;
-    display: inline-block;
-    align-items: center;
 }
 
 

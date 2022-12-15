@@ -1,68 +1,30 @@
-.button.primary{
+
+.button-text-primary{
     color: var(--hero-text-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    align-items: center;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
-    border: none;
-
-    display: inline-block;
-    align-items: center;
-    
+    border: none; 
 }
 
-// .button.primary{
-//     color: var(--hero-text-color);
-//     background-color: var(--accent-color);
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.9;
-//     align-items: center;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     border: none;
-
-//     display: inline-block;
-//     border-radius: 4px;
-//     padding: 10px 24px;
-//     min-width: 200px;
-//     align-items: center;
-    
-// }
-
+.button.primary{
+    display: inline-block;
+    align-items: center;   
+}
 
 .footer-btn{
-    color: var(--hero-text-color);
-    background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    border: none;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     border-radius: 4px;
     padding: 10px 32px;
     min-width: 200px;
 }
 
 .button{
-    color: var(--background-color);
-    background-color: var(--button-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
+
     cursor: pointer;
-    border: none;
+
     border-radius: 10px;
     font-family: inherit;
 
@@ -88,29 +50,17 @@
 }
 
 .contact-form-btn{
-
-    color: var(--hero-text-color);
-    background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    border: none;
-
     display: inline-block;
+    align-items: center;
+
     border-radius: 4px;
     padding: 10px 52px;
     min-width: 200px;
-    align-items: center;
 }
 
 
 @media screen and (max-width:767px), (min-width:768px){
     .button.primary{
-        line-height: 1.9;
-    
         border-radius: 4px;
         padding: 10px 24px;
         min-width: 200px;
@@ -120,8 +70,6 @@
 
 @media screen and (min-width:1200px) {
     .button.primary{
-    line-height: 1.8;
-
     padding: 10px 32px;
     min-width: 216px;
     }

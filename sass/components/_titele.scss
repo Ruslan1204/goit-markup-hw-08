@@ -1,10 +1,12 @@
 
-.link-title{
-    
+.general-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+}
+
+.link-title{
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--hero-text-color);
@@ -12,14 +14,10 @@
 
 .footer-form-titel{
     display: inline-block;
+
+    margin-bottom: 20px;
     
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.4;
-        letter-spacing: 0.03em;
-        margin-bottom: 20px;
-    
-        color: var(--hero-text-color);
+    color: var(--hero-text-color);
 }
 
     .navigation-title{

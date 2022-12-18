@@ -35,6 +35,10 @@
     justify-content: space-around;
 }
 
+.socials{
+    display: flex;
+}
+
 .socials__link{
     height: 44px;
     width: 44px;
@@ -44,7 +48,7 @@
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
-
+        
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, 
@@ -57,30 +61,24 @@
     }
 }
 
-.socials{
-    display: flex;
-}
 
 .socials__icon{
     fill: var(--link-icon-color);
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .thumb:hover &,
-    .thumb:focus &{
-    fill: var(--button-color);
+    &:hover,
+    &:focus{
+    fill: var(--hero-text-color);
     }
 }
 
-.section .section-team{
+.section-team{
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 
     margin-top: 0;
-    margin-bottom: 50px;
 }
 
 .section .team__name{
@@ -124,7 +122,8 @@
         width: 100%;
     }
 
-    .section .section-team{
+    .section-team{
+        margin-bottom: 30px;
         font-size: 28px;
         line-height: 1.18;
     }
@@ -134,6 +133,7 @@
     
     .team{
         display: flex; 
+        justify-content: space-around;
     }
 
     .images__team{
@@ -141,16 +141,16 @@
         margin-bottom: 30px;
         margin-right: 30px;
 
-        // &:nth-child(2n), 
-        // &:nth-child(4n) {
-        //     margin-right: 0;
-        // }
-
         &:nth-child(3n), 
         &:nth-child(4n) {
             margin-bottom: 0;
         }
+
+        &:nth-child(2n) {
+            margin-right: 0px;
+        }
     }
+
 }
 
 @media screen and (min-width:1200px){
@@ -158,11 +158,20 @@
     
         width: calc((100% - 90px)/ 4);
         margin-right: 30px;
+        margin-bottom: 0;
     
-        &:nth-child(4n){
-            margin-right: 0px;
+        &:nth-child(2n){
+            margin-right: 30px;
         }
 
-        margin-bottom: 0;
+        &:last-child{
+            margin-right: 0px;
+        }
     }
+    .section-team{
+        margin-bottom: 50px;
+        font-size: 36px;
+        line-height: 1.16;
+    }
+
 }

@@ -35,7 +35,7 @@
     }
     
     .menu-mobile{
-        position: absolute;
+        position: fixed;
         top:0;
         left:0;
         width: 100%;
@@ -47,6 +47,7 @@
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
+
     
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -74,8 +75,10 @@
         background-color: transparent;
         line-height: 0;
 
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
         &:hover{
-            color: var(--accent-color);
+            fill: var(--accent-color);
         }
     }
 
@@ -132,6 +135,7 @@
 
     .social-mobile{
         display: flex;
+        flex-wrap: wrap;
 
         color: var(--accent-color); 
     }
@@ -151,6 +155,9 @@
 
     .social-mobile__link:last-child{
         border-right: none;
+        margin-right: 0px;
+        padding-right: 0px;
+
     }
 }
 

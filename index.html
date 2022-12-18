@@ -16,7 +16,7 @@
         <header class="page-header">
             <div class="container container__header">
                 <nav class="site-contacts">
-                    <a href=""class="logo logo-styles-text list">Web<span class="logo__black logo-styles-text list">Studio</span>
+                    <a href="" class="logo logo-styles-text list">Web<span class="logo__black logo-styles-text list">Studio</span>
                     </a>  
                     <ul class="site-nav list">
                             <li class="site-nav__item"><a href="./index.html" class="link list current site-nav__studio">Студія</a></li>
@@ -42,17 +42,16 @@
                         </li>
                     </ul> 
                 </nav>
-                <button type="button" class="menu-buttom js-open-menu" aria-expanded="false" aria-controls="container__header">
-                    <svg width="40" height="40" aria-label=""Перемикач мобільного меню>
+                <button type="button" class="menu-buttom js-open-menu" aria-expanded="false"> 
+                    <!-- aria-controls="container__header" -->
+                    <svg width="40" height="40" aria-label="Перемикач мобільного меню">
                         <use class="menu-buttom__menu" href="./images/icons.svg#icon-menu"></use>
                     </svg>
                 </button>
-            </div>
-            
-            <div class="menu-mobile js-menu-container " id="menu-mobile">
-                <div class="container menu-mobile__container"> 
+                <div class="menu-mobile js-menu-container " id="menu-mobile">
+                    <div class="container menu-mobile__container"> 
                     <button type="button" class="menu-buttom-btn js-close-menu" aria-expanded="false" aria-controls="menu-mobile">
-                        <svg width="40" height="40" aria-label=""Перемикач мобільного меню>
+                        <svg width="40" height="40" aria-label="Перемикач мобільного меню">
                             <use class="menu-buttom-btn__close" href="./images/icons.svg#icon-close"></use>
                         </svg>
                     </button>     
@@ -85,6 +84,7 @@
                         <li class="social-mobile__link">Facebook</li>
                         <li class="social-mobile__link">LinkedIn</li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </header>
@@ -154,8 +154,8 @@
                     </li>
                     <li class="images__list">
                         <img srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x" 
-                        src="./images/phone.jpg" a
-                        lt="Людина дивиться в смартфон" width="370" height="294">     
+                        src="./images/phone.jpg" 
+                        alt="Людина дивиться в смартфон" width="370" height="294">     
                         <div class="images__position flex">
                             <p class="images__text">МОБІЛЬНІ ДОДАТКИ</p>
                         </div>
@@ -194,7 +194,7 @@
                             <p class="team__position">Product Designer</p>
                             <div class="wrap">
                                 <ul class="socials list">
-                                    <li>
+                                    <li class="socials__svg">
                                         <a href="#" class="socials__link flex">
                                             <svg class="socials__icon" width="20" height="20">
                                                 <use class="" href="./images/icons.svg#icon-instagram"></use>

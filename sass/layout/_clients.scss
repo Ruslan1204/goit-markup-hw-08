@@ -18,7 +18,7 @@
 .clients-items__companys{
     fill: var(--link-icon-color);
 
-    width: 170px;
+    // width: 170px;
     height: 92px;
     border: 1px solid var(--link-icon-color);
     border-radius: 4%;
@@ -61,7 +61,7 @@
     }
 
     .clients-items__companys{
-        width: 210px;
+        // width: 210px;
     }
 }
 
@@ -82,7 +82,7 @@
     }
 
     .clients-items__companys{
-        width: 226px;
+        // width: 226px;
     }
 }
 
@@ -98,11 +98,18 @@
 
     .clients-items{
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     .clients-items__icons{
+        margin-bottom: 0;
+
         &:nth-child(3n){
             margin-right: 30px;
+        }
+        
+        &:last-child{
+            margin-right: 0;
         }
     }
 

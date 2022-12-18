@@ -4,6 +4,7 @@
         text-align: center;
         align-items: center;
         flex-direction: column;
+        flex-wrap: nowrap;
         
         padding-top: 118px;
         padding-bottom: 118px;
@@ -16,7 +17,7 @@
         line-height: 1.6;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        width: 360px;
+        // width: 360px;
     
         margin-top: 0;
         margin-bottom: 30px;
@@ -27,13 +28,13 @@
 
 @media screen and (max-width: 767px) {
     .hero__container_overlay{
-        max-width: 480px;
+        // min-width: 480px;
         height: 400px;
         margin-left: auto;
         margin-right: auto;
         outline: 1px solid var(--hero-solid-color);
         /* background-repeat: no-repeat; */
-        background-size: 480px 400px;
+        background-size: cover;
         background-position: center;
         background-color: var(--hero-solid-color);
         background-image: 
@@ -53,9 +54,9 @@
 
 @media screen and (min-width: 768px){
     .hero__container_overlay{
-        max-width: 768px;
+        min-width: 768px;
         height: 400px;
-        background-size: 768px 400px;
+        background-size: cover;
         background-image: 
         linear-gradient(to right, rgba(47, 48, 58, 0.4), 
         rgba(47, 48, 58, 0.4)),
@@ -69,12 +70,17 @@
             background-image: url('../images/hero-tablet-img@2x.jpg');
         }
     }
+
+    .hero__title{
+        width: 368px;
+    }
     
 }
 
 @media screen and (min-width: 1200px){
+    
     .hero__container_overlay{
-        max-width: 1600px;
+        min-width: 1600px;
         height: 600px;
         background-size: cover;
         background-image: 
@@ -94,6 +100,13 @@
     .hero__container{
         padding-top: 200px;
         padding-bottom: 200px;
+    }
+
+    .hero__title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        width: 696px;
     }
 
 }

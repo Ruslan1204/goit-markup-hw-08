@@ -1,3 +1,15 @@
+body {
+    
+    background: var(--hero-text-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+
+.section{
+    padding-bottom: 94px;
+}  
+
 img {
     display: block;
     max-width: 100%;
@@ -18,15 +30,7 @@ img {
     align-items: center;
 }
 
-.section{
-    padding-bottom: 94px;
-}  
 
-.body {
-    
-    background: var(--hero-text-color);
-    color: var(--primary-text-color);
 
-    font-family: Roboto, sans-serif;
-}
+
 

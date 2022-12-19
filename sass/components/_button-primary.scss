@@ -12,7 +12,11 @@
 
 .button.primary{
     display: inline-block;
-    align-items: center;   
+    align-items: center;
+    
+    border-radius: 4px;
+    padding: 10px 24px;
+    min-width: 200px;
 }
 
 .footer-btn{
@@ -58,15 +62,6 @@
     min-width: 200px;
 }
 
-
-@media screen and (max-width:767px), (min-width:768px){
-    .button.primary{
-        border-radius: 4px;
-        padding: 10px 24px;
-        min-width: 200px;
-    }
-
-}
 
 @media screen and (min-width:1200px) {
     .button.primary{

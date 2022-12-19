@@ -147,7 +147,7 @@
                     <li class="images__list">
                         <img  srcset="./images/box.jpg 1x, ./images/box@2x.jpg 2x" 
                         src="./images/box.jpg" 
-                        alt="Людина друкує текст" width="370" height="294">
+                        alt="Людина друкує текст">
                         <div class="images__position flex">
                             <p class="images__text">ДЕСКТОПНІ ДОДАТКИ</p>
                         </div>
@@ -155,7 +155,7 @@
                     <li class="images__list">
                         <img srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x" 
                         src="./images/phone.jpg" 
-                        alt="Людина дивиться в смартфон" width="370" height="294">     
+                        alt="Людина дивиться в смартфон">     
                         <div class="images__position flex">
                             <p class="images__text">МОБІЛЬНІ ДОДАТКИ</p>
                         </div>
@@ -163,7 +163,7 @@
                     <li class="images__list">
                         <img srcset="./images/tablet.jpg 1x, ./images/tablet@2x.jpg 2x" 
                         src="./images/tablet.jpg" 
-                        alt="Людина тримає планшет" width="370" height="294">  
+                        alt="Людина тримає планшет">  
                         <div class="images__position flex">
                             <p class="images__text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
                         </div>                        
@@ -180,9 +180,9 @@
                         <picture>
                             <source srcset="./images/igor-phone.jpg 1x, ./images/igor-phone@2x.jpg 2x" media="(max-width:767px)"> 
 
-                            <source srcset="./images/igor-desktop.jpg 1x, ./images/igor-desktop@2x.jpg 2x" media="(min-width:1200px)"> 
-
                             <source srcset="./images/igor-tablet.jpg 1x, ./images/igor-tablet@2x.jpg 2x" media="(min-width:768px)"> 
+
+                            <source srcset="./images/igor-desktop.jpg 1x, ./images/igor-desktop@2x.jpg 2x" media="(min-width:1200px)">
 
                             <img src="./images/igor-phone.jpg" 
                             alt="Ігор Дем'яненко" 
@@ -230,9 +230,9 @@
                         <picture>
                             <source srcset="./images/olga-phone.jpg 1x, ./images/olga-phone@2x.jpg 2x" media="(max-width:767px)"> 
 
+                            <source srcset="./images/olga-tablet.jpg 1x, ./images/olga-tablet@2x.jpg 2x" media="(min-width:768px)">
+                            
                             <source srcset="./images/olga-desktop.jpg 1x, ./images/olga-desktop@2x.jpg 2x" media="(min-width:1200px)">
-
-                            <source srcset="./images/olga-tablet.jpg 1x, ./images/olga-tablet@2x.jpg 2x" media="(min-width:768px)"> 
 
                             <img src="./images/olga-phone.jpg" alt="Ольга Рєпіна" class="image"> 
                         </picture>
@@ -278,9 +278,9 @@
                         <picture>
                             <source srcset="./images/nicholas-phone.jpg 1x, ./images/nicholas-phone@2x.jpg 2x" media="(max-width:767px)"> 
 
+                            <source srcset="./images/nicholas-tablet.jpg 1x, ./images/nicholas-tablet@2x.jpg 2x" media="(min-width:768px)">
+                            
                             <source srcset="./images/nicholas-desktop.jpg 1x, ./images/nicholas-desktop@2x.jpg 2x" media="(min-width:1200px)">
-
-                            <source srcset="./images/nicholas-tablet.jpg 1x, ./images/nicholas-tablet@2x.jpg 2x" media="(min-width:768px)"> 
 
                             <img src="./images/nicholas-phone.jpg" alt="Микола Тарасов" class="image">
                         </picture>
@@ -324,11 +324,11 @@
                     </li>
                     <li class="images__team">
                         <picture>
-                            <source srcset="./images/mykhailo-phone.jpg 1x, ./images/mykhailo-phone@2x.jpg 2x" media="(max-width:767px)"> 
+                            <source srcset="./images/mykhailo-phone.jpg 1x, ./images/mykhailo-phone@2x.jpg 2x" media="(max-width:767px)">  
 
-                            <source srcset="./images/mykhailo-desktop.jpg 1x, ./images/mykhailo-desktop@2x.jpg 2x" media="(min-width:1200px)"> 
-
-                            <source srcset="./images/mykhailo-tablet.jpg 1x, ./images/mykhailo-tablet.@2x.jpg 2x" media="(min-width:768px)"> 
+                            <source srcset="./images/mykhailo-tablet.jpg 1x, ./images/mykhailo-tablet.@2x.jpg 2x" media="(min-width:768px)">
+                            
+                            <source srcset="./images/mykhailo-desktop.jpg 1x, ./images/mykhailo-desktop@2x.jpg 2x" media="(min-width:1200px)">
 
                             <img src="./images/mykhailo-phone.jpg" alt="Михайло Єрмаков" class="image"> 
                         </picture>
@@ -425,50 +425,54 @@
         </main>
         <footer class="basement">
             <div class="container social-wrap">
-                <div class="basement-wrap">
-                    <a href="" class="logo-blue logo-styles-text list">Web<span class="logo-blue__organization list">Studio</span></a>
-                    <address class="wrapper__address footer-text-styles wrapper">
-                        <ul class="wrapper__link list">
-                            <li class="wrapper__indent"><a href="https://goo.gl/maps/bryajU4262Nfg22KA" class="wrapper__color footer-text-styles list" target="_blank" rel="noopener noreferrer">
-                            м. Київ, пр-т Лесі Українки, 26</a></li>
-                            <li class="wrapper__indent"><a href="mailto:info@devstudio.com" class="wrapper__color-text footer-text-styles list">info@devstudio.com</a><br></li>
-                            <li class="wrapper__indent"><a href="tel:+380961111111" class="wrapper__color-text footer-text-styles list">+(38) 096 111-11-11</a></li>
-                        </ul> 
-                    </address>
+
+                <div class="wrapper-address">
+                    <div class="basement-wrap">
+                        <a href="" class="logo-blue logo-styles-text list">Web<span class="logo-blue__organization list">Studio</span></a>
+                        <address class="wrapper__address footer-text-styles wrapper">
+                            <ul class="wrapper__link list">
+                                <li class="wrapper__indent"><a href="https://goo.gl/maps/bryajU4262Nfg22KA" class="wrapper__color footer-text-styles list" target="_blank" rel="noopener noreferrer">
+                                м. Київ, пр-т Лесі Українки, 26</a></li>
+                                <li class="wrapper__indent"><a href="mailto:info@devstudio.com" class="wrapper__color-text footer-text-styles list">info@devstudio.com</a><br></li>
+                                <li class="wrapper__indent"><a href="tel:+380961111111" class="wrapper__color-text footer-text-styles list">+(38) 096 111-11-11</a></li>
+                            </ul> 
+                        </address>
+                    </div>
+                    <div class="social-link">
+                        <strong class="link-title general-title">ПРИЄДНУЙТЕСЬ</strong>
+                        <ul class="link-basement">
+                            <li class="link-basement__link list">
+                                <a href="#" class="svg-link flex">
+                                    <svg class="link-basement__icon" width="20" height="20">
+                                    <use class="" href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="link-basement__link list">
+                                <a href="#" class="svg-link flex">
+                                    <svg class="link-basement__icon" width="20" height="20">
+                                    <use class="" href="./images/icons.svg#icon-group"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="link-basement__link list">
+                                <a href="#" class="svg-link flex">
+                                    <svg class="link-basement__icon" width="20" height="20">
+                                    <use class="" href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="link-basement__link list">
+                                <a href="#" class="svg-link flex">
+                                    <svg class="link-basement__icon" width="20" height="20">
+                                    <use class="" href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="social-link">
-                    <strong class="link-title general-title">ПРИЄДНУЙТЕСЬ</strong>
-                    <ul class="link-basement">
-                        <li class="link-basement__link list">
-                            <a href="#" class="svg-link flex">
-                                <svg class="link-basement__icon" width="20" height="20">
-                                <use class="" href="./images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="link-basement__link list">
-                            <a href="#" class="svg-link flex">
-                                <svg class="link-basement__icon" width="20" height="20">
-                                <use class="" href="./images/icons.svg#icon-group"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="link-basement__link list">
-                            <a href="#" class="svg-link flex">
-                                <svg class="link-basement__icon" width="20" height="20">
-                                <use class="" href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="link-basement__link list">
-                            <a href="#" class="svg-link flex">
-                                <svg class="link-basement__icon" width="20" height="20">
-                                <use class="" href="./images/icons.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
 
                 <div class="footer-form">
                     <strong class="footer-form-titel general-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</strong>

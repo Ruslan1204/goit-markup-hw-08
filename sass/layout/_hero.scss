@@ -26,7 +26,9 @@
     }
 
 
-@media screen and (max-width: 767px) {
+
+
+    
     .hero__container_overlay{
         // min-width: 480px;
         height: 400px;
@@ -50,7 +52,7 @@
                 background-image: url('../images/hero-mobile-img@2x.jpg');
             }
     }
-}
+
 
 @media screen and (min-width: 768px){
     .hero__container_overlay{

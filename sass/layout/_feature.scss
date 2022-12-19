@@ -20,6 +20,10 @@
     }
 
     .feature .feature__title{
+
+        display: block;
+        text-align: center;
+
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -44,20 +48,6 @@
     }
 
 
-@media screen and (max-width:767px) {
-    
-    .feature__icons{
-        // min-width: 450px;
-        height: 120px;
-        margin-bottom: 30px;
-    }
-
-    .feature .feature__title{
-        display: block;
-        text-align: center;
-    }
-}
-
 @media screen and (min-width:768px) {
 
     .feature{
@@ -65,9 +55,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .feature__icons{
-        // min-width: 354px;
+
+    .feature .feature__title{
+        text-align: initial;
     }
     
     .feature__desc{

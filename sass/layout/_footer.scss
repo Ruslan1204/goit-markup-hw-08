@@ -1,5 +1,4 @@
 
-
 .footer-text-styles{
     font-weight: 400;
     font-size: 14px;
@@ -15,6 +14,8 @@
 .social-wrap{
     display: flex;
     align-items: baseline;
+    flex-direction: column;
+    align-items: center;
 }
 
 .wrapper__color{
@@ -56,10 +57,14 @@
 }
 
 .wrap-form__input{
-    max-width: 450px;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+
+    // max-width: 450px;
     height: 50px;
     padding-left: 16px;
-    margin-right: 12px;
+    // margin-right: 12px;
 
     color: var(--hero-text-color); 
 
@@ -107,6 +112,8 @@
 }
     
 .wrapper__address{
+    display: block;
+    text-align: center;
     color: var(--hero-text-color);
     list-style: normal;
     font-style: normal;
@@ -116,26 +123,6 @@
     margin-right: 0;
 }
     
-.wrap-form{
-    display: flex;
-}
-
-@media screen and (max-width:767px) {
-    .social-wrap{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .wrapper__address{
-        display: block;
-        text-align: center;
-    }
-
-    .wrap-form__input{
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
 
     .wrap-form{
         display:flex;
@@ -160,42 +147,36 @@
         margin-right: 0;
         margin-bottom: 60px;
     }
-}
+
 
 
 @media screen and (min-width:768px){
+
+    .wrapper-address{
+        display: flex;
+        align-items: baseline;
+    }
+
     .social-wrap{
+        justify-content: center;
         flex-wrap: wrap;
+        flex-direction: initial;
         align-items: baseline;
     }
 
     .basement-wrap{
-        display: block;
-        text-align: center;
+        // display: block;
+        // text-align: center;
 
-        margin-left: 76px;
+        margin-right: 165px;
     }
 
     .social-link{
         display: block;
         text-align: center;
-        margin-left: auto;
-
-        margin-top: 65px;
-        margin-right: 88px;
+        margin: 0;
     }
     
-    .wrap-form{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-form{
-        margin-top: 96px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .wrap-form__input{
         width: 450px;
@@ -214,6 +195,10 @@
         text-align: initial;
         margin-left: 0;
         margin-right: 70px;
+    }
+
+    .wrapper__address{
+        text-align: initial;
     }
 
     .social-link{

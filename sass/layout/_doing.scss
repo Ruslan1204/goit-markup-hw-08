@@ -1,5 +1,4 @@
 
-@media screen and (max-width:767px), (min-width:768px){
     .section-doing{
         padding-top: 0;
     }
@@ -11,7 +10,8 @@
     .images{
         display: none;
     }
-}
+
+
 
 @media screen and (min-width:1200px) {
     .section-doing{
@@ -26,12 +26,13 @@
     
     .images__list{
         position: relative; 
+        min-width: 370px;
     
         &:not(:last-child){
             margin-right: 30px;
         } 
     }
-    
+
     .doing-title{
         display: block;
         font-weight: 700;

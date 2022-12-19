@@ -32,8 +32,8 @@
     padding: 40px;
     transform: translate(-50%, -50%) scale(1);
 
-    width: 528px;
-    height: 580px;
+    width: 450px;
+    height: 609px;
     border-radius: 4px;
 
     background-color: var(--hero-text-color);
@@ -233,12 +233,6 @@
     justify-content: center;
 }
 
-@media screen and (max-width:767px){
-    .backdrop__modal{
-        width: 90%;
-        height: 688px;
-    }
-
     .form__titel{
         font-size: 20px;
         line-height: 1.5;
@@ -246,6 +240,22 @@
 
     .form__contact-input{
         width: 100%;
+    }
+
+
+@media screen and(max-width:479px) {
+    .backdrop__modal{
+        width: 90%;
+        height: 581px;
+    }
+
+    .form__titel {
+        line-height: initial;
+    }
+
+    .checkbox{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 

@@ -145,6 +145,14 @@ img {
   min-width: 200px;
 }
 
+@media screen and (max-width: 767px) {
+  .container-btn {
+    margin-bottom: 8px;
+  }
+  .container-btn:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .button.primary {
     padding: 10px 32px;
@@ -240,6 +248,11 @@ img {
   }
   .footer-form-titel {
     text-align: center;
+  }
+  .container-title {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 .container-title_padding {
@@ -584,6 +597,9 @@ img {
     margin-top: 0;
     margin-bottom: 0;
   }
+  .checkbox__icon {
+    width: 25px;
+  }
 }
 @media screen and (min-width: 768px) {
   .backdrop__modal {
@@ -727,8 +743,9 @@ img {
 
 @media screen and (max-width: 479px) {
   .projects__text {
-    padding: 0;
+    font-size: 17px;
     line-height: 1.3;
+    padding: 24px 24px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -918,6 +935,14 @@ img {
   padding-right: 0px;
 }
 
+@media screen and (max-width: 479px) {
+  .site-mobile {
+    margin-bottom: 80px;
+  }
+  .social-mobile__link {
+    padding-right: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .menu-mobile {
     display: none;
@@ -1122,12 +1147,12 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero__container_overlay {
-    background-image: url("../images/hero-mobile-img@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-mobile-img@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-mobile-img@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .hero__container_overlay {
-    min-width: 768px;
     height: 400px;
     background-size: cover;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-tablet-img.jpg");
@@ -1136,7 +1161,8 @@ img {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__container_overlay {
-    background-image: url("../images/hero-tablet-img@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-tablet-img@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-tablet-img@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
@@ -1148,14 +1174,14 @@ img {
   .hero__container_overlay {
     min-width: 1600px;
     height: 600px;
-    background-size: cover;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-desktop-img.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-desktop-img.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero__container_overlay {
-    background-image: url("../images/hero-desktop-img@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-desktop-img@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-desktop-img@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1769,6 +1795,7 @@ img {
         flex-wrap: nowrap;
   }
   .basement-wrap {
+    height: 132px;
     text-align: initial;
     margin-left: 0;
     margin-right: 70px;

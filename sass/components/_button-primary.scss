@@ -61,6 +61,16 @@
     padding: 10px 52px;
     min-width: 200px;
 }
+@media screen and (max-width:767px) {
+    .container-btn{
+        margin-bottom: 8px;
+    }
+
+    .container-btn:nth-last-child(-n + 2){
+        margin-bottom: 0px;
+    }
+    
+}
 
 
 @media screen and (min-width:1200px) {

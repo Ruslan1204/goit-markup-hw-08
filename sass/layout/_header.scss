@@ -148,7 +148,6 @@
     
     .social-mobile__link{
         margin-right: 10px;
-        margin-bottom: 48px;
         padding-right: 10px;
 
 
@@ -159,16 +158,22 @@
         border-right: none;
         margin-right: 0px;
         padding-right: 0px;
-
     }
 
 @media screen and (max-width:479px) {
+    .contacts-nav__tel{
+        font-size: 30px;
+
+    }
+
     .site-mobile{
         margin-bottom: 80px;
     }
 
     .social-mobile__link{
-        padding-right: 0;
+        margin-right: 5px;
+        margin-bottom: 0;
+        padding-right: 5px;
     }
 }
 

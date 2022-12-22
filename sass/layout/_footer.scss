@@ -176,6 +176,10 @@
         text-align: center;
         margin: 0;
     }
+
+    .footer-form{
+        align-items: center;
+    }
     
 
     .wrap-form__input{
@@ -211,6 +215,8 @@
     }
 
     .footer-form{
+        align-items:initial;
+
         width: 570px;
         margin-top: 0;
         margin-left: 0;
